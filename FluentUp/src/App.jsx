@@ -576,53 +576,7 @@ function Refund(){
 }
 
 
-/* ---------------- REFUND ---------------- */
-function Refund(){
- return(
 
-  <Page title="Refund Policy">
-
-   <p>
-    This Refund Policy explains how subscription payments
-    and refunds are handled for FluentUp premium services.
-   </p>
-
-   <h2 className="font-semibold text-xl mt-6">Subscription Plans</h2>
-   <ul className="list-disc pl-6 space-y-2">
-    <li>Monthly Plan – ₹199</li>
-    <li>Yearly Plan – ₹499</li>
-   </ul>
-
-   <h2 className="font-semibold text-xl mt-6">Refund Eligibility</h2>
-   <ul className="list-disc pl-6 space-y-2">
-    <li>If a payment is deducted due to a technical error.</li>
-    <li>If the service cannot be activated after payment.</li>
-    <li>If duplicate payments are made accidentally.</li>
-   </ul>
-
-   <h2 className="font-semibold text-xl mt-6">Non‑Refundable Situations</h2>
-   <ul className="list-disc pl-6 space-y-2">
-    <li>Change of mind after subscription activation.</li>
-    <li>Violation of platform policies.</li>
-    <li>Misuse of premium features.</li>
-   </ul>
-
-   <h2 className="font-semibold text-xl mt-6">Refund Request Process</h2>
-   <p>
-    Users may contact support through the official email
-    address within a reasonable time period after payment
-    to request assistance regarding billing issues.
-   </p>
-
-   <h2 className="font-semibold text-xl mt-6">Processing Time</h2>
-   <p>
-    If approved, refunds may take several business days
-    depending on the payment gateway and banking system.
-   </p>
-
-  </Page>
- )
-}
 
 
 /* ---------------- CONTACT ---------------- */
