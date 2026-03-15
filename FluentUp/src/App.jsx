@@ -523,6 +523,38 @@ function Privacy(){
 }
 
 
+function Terms(){
+ return(
+
+  <Page title="Terms & Conditions">
+
+   <p>
+    These Terms and Conditions govern the use of the FluentUp
+    platform. By accessing the website, users agree to follow
+    these rules.
+   </p>
+
+   <h2 className="font-semibold text-xl mt-6">Platform Usage</h2>
+
+   <ul className="list-disc pl-6 space-y-2">
+    <li>Users must be at least 18 years old.</li>
+    <li>Respect other users during conversations.</li>
+    <li>No illegal or harmful activities allowed.</li>
+   </ul>
+
+   <h2 className="font-semibold text-xl mt-6">Account Responsibility</h2>
+
+   <p>
+    Users are responsible for maintaining the security
+    of their accounts and activities performed using them.
+   </p>
+
+  </Page>
+
+ )
+}
+
+
 /* ---------------- TERMS ---------------- */
 function Refund(){
  return(
