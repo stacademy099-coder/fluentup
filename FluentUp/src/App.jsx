@@ -240,8 +240,8 @@ function Pricing(){
   // UPI deep links sometimes get blocked in desktop browsers.
   // So we open them in a new tab and also provide a fallback payment page.
 
-  const monthlyLink="upi://pay?pa=7352460579@upi&pn=FluentUp&am=199&cu=INR&tn=FluentUp Monthly Plan";
-  const yearlyLink="upi://pay?pa=7352460579@upi&pn=FluentUp&am=499&cu=INR&tn=FluentUp Yearly Plan";
+  const monthlyLink="upi://pay?pa=9241551241@upi&pn=FluentUp&am=199&cu=INR&tn=FluentUp Monthly Plan";
+  const yearlyLink="upi://pay?pa=9241551241@upi&pn=FluentUp&am=499&cu=INR&tn=FluentUp Yearly Plan";
 
   const link = plan==='monthly' ? monthlyLink : yearlyLink;
 
@@ -480,58 +480,43 @@ function Privacy(){
   <Page title="Privacy Policy">
 
    <p>
-    FluentUp is committed to protecting the privacy of its users. This
-    Privacy Policy explains how information is collected, used and
-    protected when users access the FluentUp website and related
-    services. Because FluentUp is a developing communication platform,
-    policies may be updated as the service evolves.
+    FluentUp respects the privacy of its users and is committed
+    to protecting personal information.
    </p>
 
-   <h2 className="font-semibold text-xl mt-6">Information We Collect</h2>
+   <h2 className="font-semibold text-xl mt-6">Information Collected</h2>
+
    <ul className="list-disc pl-6 space-y-2">
-    <li>Email address used during account registration.</li>
-    <li>Basic profile information provided voluntarily by the user.</li>
-    <li>Device information such as browser type, operating system and IP address.</li>
-    <li>Usage data including pages visited, time spent and feature interaction.</li>
-    <li>Communication logs necessary for service stability and abuse prevention.</li>
+    <li>Email address during account registration</li>
+    <li>Basic profile information</li>
+    <li>Device information and IP address</li>
+    <li>Usage analytics for platform improvement</li>
    </ul>
 
-   <h2 className="font-semibold text-xl mt-6">How We Use Information</h2>
+   <h2 className="font-semibold text-xl mt-6">How Information Is Used</h2>
+
    <ul className="list-disc pl-6 space-y-2">
-    <li>To operate and maintain the FluentUp platform.</li>
-    <li>To improve communication matching algorithms.</li>
-    <li>To provide customer support and respond to inquiries.</li>
-    <li>To monitor misuse, spam or harmful activities.</li>
-    <li>To improve platform performance and reliability.</li>
+    <li>To operate and maintain the platform</li>
+    <li>To improve user matching algorithms</li>
+    <li>To detect abuse or misuse</li>
+    <li>To provide customer support</li>
    </ul>
 
-   <h2 className="font-semibold text-xl mt-6">Data Protection</h2>
+   <h2 className="font-semibold text-xl mt-6">Third-Party Services</h2>
+
    <p>
-    FluentUp implements reasonable technical and organizational
-    measures to protect personal information from unauthorized
-    access, misuse or disclosure.
+    FluentUp may use trusted third-party services including
+    hosting providers and payment gateways to process payments
+    and maintain infrastructure.
    </p>
 
-   <h2 className="font-semibold text-xl mt-6">Third Party Services</h2>
-   <p>
-    Payment processing and certain infrastructure services may
-    be handled by trusted third‑party providers such as payment
-    gateways or hosting providers.
-   </p>
+   <h2 className="font-semibold text-xl mt-6">Contact For Privacy Concerns</h2>
 
-   <h2 className="font-semibold text-xl mt-6">User Rights</h2>
    <ul className="list-disc pl-6 space-y-2">
-    <li>Users may request account deletion.</li>
-    <li>Users may update profile information.</li>
-    <li>Users may contact support regarding data concerns.</li>
+    <li>Email: eklakhshekh653@gmail.com</li>
+    <li>Phone: +91 9241551241</li>
+    <li>Address: Ward No 04 Tellua Shekhtoli, West Champaran, Bihar 845459</li>
    </ul>
-
-   <h2 className="font-semibold text-xl mt-6">Policy Updates</h2>
-   <p>
-    Since FluentUp is an actively developing web application,
-    this policy may be updated periodically to reflect new
-    features, security improvements and legal requirements.
-   </p>
 
   </Page>
  )
@@ -539,58 +524,51 @@ function Privacy(){
 
 
 /* ---------------- TERMS ---------------- */
-function Terms(){
+function Refund(){
  return(
 
-  <Page title="Terms & Conditions">
+  <Page title="Refund Policy">
 
    <p>
-    These Terms and Conditions govern the use of the FluentUp
-    website and communication platform. By accessing or using
-    the platform, users agree to comply with these terms.
+    FluentUp offers subscription based digital services.
    </p>
 
-   <h2 className="font-semibold text-xl mt-6">Platform Usage</h2>
+   <h2 className="font-semibold text-xl mt-6">Subscription Plans</h2>
+
    <ul className="list-disc pl-6 space-y-2">
-    <li>Users must be at least 18 years old or meet legal age requirements.</li>
-    <li>The platform must be used only for lawful communication purposes.</li>
-    <li>Users must respect other participants during conversations.</li>
+    <li>Monthly Plan – ₹199</li>
+    <li>Yearly Plan – ₹499</li>
    </ul>
 
-   <h2 className="font-semibold text-xl mt-6">Prohibited Activities</h2>
+   <h2 className="font-semibold text-xl mt-6">Refund Conditions</h2>
+
    <ul className="list-disc pl-6 space-y-2">
-    <li>Harassment, abuse or threatening behavior.</li>
-    <li>Sharing illegal or harmful content.</li>
-    <li>Attempting to exploit or disrupt the platform.</li>
-    <li>Using automated bots or scraping systems.</li>
+    <li>If payment is deducted but service is not activated.</li>
+    <li>If duplicate payments occur due to technical issues.</li>
+    <li>If payment gateway errors occur.</li>
    </ul>
 
-   <h2 className="font-semibold text-xl mt-6">Account Responsibility</h2>
+   <h2 className="font-semibold text-xl mt-6">Non Refundable Cases</h2>
+
+   <ul className="list-disc pl-6 space-y-2">
+    <li>Activated subscriptions.</li>
+    <li>User violation of platform policies.</li>
+    <li>Completed service usage.</li>
+   </ul>
+
+   <h2 className="font-semibold text-xl mt-6">Refund Request</h2>
+
    <p>
-    Users are responsible for maintaining the confidentiality
-    of their account information and activities performed
-    through their account.
+    Users may request refund support by contacting
+    eklakhshekh653@gmail.com within 48 hours
+    of the payment transaction.
    </p>
 
-   <h2 className="font-semibold text-xl mt-6">Service Availability</h2>
-   <p>
-    FluentUp is currently a developing web application and
-    features may evolve over time. Temporary interruptions
-    may occur during updates or maintenance.
-   </p>
+   <h2 className="font-semibold text-xl mt-6">Processing Time</h2>
 
-   <h2 className="font-semibold text-xl mt-6">Termination</h2>
    <p>
-    FluentUp reserves the right to suspend or terminate
-    accounts that violate these terms or engage in harmful
-    activity on the platform.
-   </p>
-
-   <h2 className="font-semibold text-xl mt-6">Limitation of Liability</h2>
-   <p>
-    FluentUp provides a communication platform and does not
-    control user generated conversations. Users interact
-    with others at their own discretion.
+    Approved refunds may take 5-7 business days
+    depending on the payment gateway and bank.
    </p>
 
   </Page>
@@ -677,11 +655,11 @@ function Contact(){
      <div className="space-y-6">
 
       <a
-       href="tel:7352460579"
+       href="tel:9241551241"
        className="block bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition"
       >
        <h3 className="font-semibold text-lg">📞 Call Support</h3>
-       <p className="text-gray-600">7352460579</p>
+       <p className="text-gray-600">9241551241</p>
        <p className="text-sm text-gray-500">Tap to call directly</p>
       </a>
 
@@ -695,7 +673,7 @@ function Contact(){
       </a>
 
       <a
-       href="https://wa.me/917352460579"
+       href="https://wa.me/919241551241"
        target="_blank"
        rel="noreferrer"
        className="block bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition"
@@ -867,7 +845,7 @@ function Footer(){
 
     <div>
      <h4 className="text-white font-semibold mb-3">Contact</h4>
-     <p className="text-sm">7352460579</p>
+     <p className="text-sm">9241551241</p>
      <p className="text-sm">eklakhshekh653@gmail.com</p>
     </div>
 
