@@ -240,8 +240,8 @@ function Pricing(){
   // UPI deep links sometimes get blocked in desktop browsers.
   // So we open them in a new tab and also provide a fallback payment page.
 
-  const monthlyLink="upi://pay?pa=9241551241@upi&pn=FluentUp&am=199&cu=INR&tn=FluentUp Monthly Plan";
-  const yearlyLink="upi://pay?pa=9241551241@upi&pn=FluentUp&am=499&cu=INR&tn=FluentUp Yearly Plan";
+  const monthlyLink="upi://pay?pa=7352460579@upi&pn=FluentUp&am=199&cu=INR&tn=FluentUp Monthly Plan";
+  const yearlyLink="upi://pay?pa=7352460579@upi&pn=FluentUp&am=499&cu=INR&tn=FluentUp Yearly Plan";
 
   const link = plan==='monthly' ? monthlyLink : yearlyLink;
 
@@ -514,7 +514,7 @@ function Privacy(){
 
    <ul className="list-disc pl-6 space-y-2">
     <li>Email: eklakhshekh653@gmail.com</li>
-    <li>Phone: +91 9241551241</li>
+    <li>Phone: +91 7352460579</li>
     <li>Address: Ward No 04 Tellua Shekhtoli, West Champaran, Bihar 845459</li>
    </ul>
 
@@ -641,11 +641,11 @@ function Contact(){
      <div className="space-y-6">
 
       <a
-       href="tel:9241551241"
+       href="tel:7352460579"
        className="block bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition"
       >
        <h3 className="font-semibold text-lg">📞 Call Support</h3>
-       <p className="text-gray-600">9241551241</p>
+       <p className="text-gray-600">7352460579</p>
        <p className="text-sm text-gray-500">Tap to call directly</p>
       </a>
 
@@ -659,7 +659,7 @@ function Contact(){
       </a>
 
       <a
-       href="https://wa.me/919241551241"
+       href="https://wa.me/917352460579"
        target="_blank"
        rel="noreferrer"
        className="block bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition"
@@ -831,7 +831,7 @@ function Footer(){
 
     <div>
      <h4 className="text-white font-semibold mb-3">Contact</h4>
-     <p className="text-sm">9241551241</p>
+     <p className="text-sm">7352460579</p>
      <p className="text-sm">eklakhshekh653@gmail.com</p>
     </div>
 
